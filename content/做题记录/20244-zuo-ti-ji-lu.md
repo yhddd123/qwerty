@@ -53,6 +53,8 @@ $$ans=\sum_{i=0}^{n-1} A_n^i \sum_{j=0}^{n^2}dp_{n-i-1,j}\times(g_{j-2}\times(n-
 
 ### [abc349g](https://www.luogu.com.cn/problem/AT_abc349_g)
 
+[[abc349g-ti-jie|abc349g 题解]]
+
 最直接的就是并查集倍增将两段区间并起来。
 
 可以用类似马拉车的思路得到一个贪心算法。枚举 $i$，用 $ban_{i,j}$ 记录 $i$ 不能是 $j$，维护 $r$ 表示当前已知 $b_1\dotsb b_r$。如果 $i+a_i\ge r$ 就把 $r$ 更新到 $i+a_i$，否则什么也不做。最后在 hash 判断所有 $a_i$ 是不是都满足条件。
@@ -115,7 +117,7 @@ $dp_{i,j}\to dp_{k,l}$。对 $i,j$ 往后的转移按平均值从小到大，一
 
 ### [CF1666K](https://www.luogu.com.cn/problem/CF1666K)
 
-每个点拆为 $a_i,b_i$ ，最小割，$s\to a_i$ 表示 $i\in A$，否则 $i\notin A$；$s\to b_i$ 表示 $i\in B$，否则 $i\notin B$。00 或 11 表示 $i\inC$。
+每个点拆为 $a_i,b_i$ ，最小割，$s\to a_i$ 表示 $i\in A$，否则 $i\notin A$；$s\to b_i$ 表示 $i\in B$，否则 $i\notin B$。00 或 11 表示 $i\in C$。
 
 ### [P10371](https://www.luogu.com.cn/problem/P10371)
 
@@ -131,7 +133,7 @@ $dp_{i,j}\to dp_{k,l}$。对 $i,j$ 往后的转移按平均值从小到大，一
 
 ### [agc033d](https://www.luogu.com.cn/problem/AT_agc033_d)
 
-$dp_{i,j,k,l} 的答案，复杂度 $O(n^5)$。
+$dp_{i,j,k,l}$ 的答案，复杂度 $O(n^5)$。
 
 注意到答案小于 $\log nm$。交换维度。$dp_{ans,i,j,l}$ 表示答案为 $ans$，$(i,j)$ 到 $(dp_{ans,i,j,l},l)$ 最大。
 

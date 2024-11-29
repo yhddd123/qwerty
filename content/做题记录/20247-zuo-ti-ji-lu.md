@@ -109,9 +109,7 @@ $$\sum_{i=1}^n\sum_{j=1}^m [gcd(i,j)=k]$$
 
 $$=\sum_{i=1}^{\frac{n}{k}}\sum_{j=1}^{\frac{m}{k}} [gcd(i,j)=1]$$
 
-$$=\sum_{i=1}^{\frac{n}{k}}\sum_{j=1}^{\frac{m}{k}}\sum_{d\mid gcd(i,j)}\mu (d)$$$$
-
-$$=\sum_{d=1}^n \mu(d)\frac{n}{kd}\frac{m}{kd}$$
+$$=\sum_{i=1}^{\frac{n}{k}}\sum_{j=1}^{\frac{m}{k}}\sum_{d\mid gcd(i,j)}\mu (d)$$$$=\sum_{d=1}^n \mu(d)\frac{n}{kd}\frac{m}{kd}$$
 
 预处理 $\mu(d)$ 前缀和，整除分块。
 
@@ -200,5 +198,7 @@ $$dp_{n,x}=\sum_{i=1}\sum_{j=1}^{n-1-i}\binom {n-1}{i}\times \binom {n-1-i}{j}\t
 ## 7.17
 
 ### [P7361](https://www.luogu.com.cn/problem/P7361)
+
+[[sam-zuo-ti-ji-lu|SAM 学习笔记]]。
 
 用 set 启发式合并 edp 集合，一个长度的贡献为相邻的 edp 点。贡献为 $min(pl-l+1,len)$。离线，扫描线。

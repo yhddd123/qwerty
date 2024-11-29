@@ -1,3 +1,12 @@
+---
+title: '搭建小记'
+date: 2024-11-29 21:51:39
+tags: []
+published: true
+hideInList: false
+feature: 
+isTop: false
+---
 [https://quartz.jzhao.xyz/](https://quartz.jzhao.xyz/)。
 
 选 ```Empty Quartz```。

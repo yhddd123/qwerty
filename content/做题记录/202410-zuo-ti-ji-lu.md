@@ -77,7 +77,7 @@ $s_p\le s_q+\lceil\frac{p-q}{k}\rceil$，维护模 $k$ 为下标的 $\min dis_q+
 
 ### [The 3rd Universal Cup. Stage 12](https://qoj.ac/contest/1807)
 
-见 [[The 3rd Universal Cup 做题记录 (2)]]。
+见 [[the-3rd-universal-cup-zuo-ti-ji-lu-2|The 3rd Universal Cup 做题记录 (2)]]。
 
 ## 10.14
 
@@ -114,6 +114,8 @@ $s_p\le s_q+\lceil\frac{p-q}{k}\rceil$，维护模 $k$ 为下标的 $\min dis_q+
 ## 10.29
 
 ### [【模板】基于值域预处理的快速离散对数](https://www.luogu.com.cn/problem/P11175)
+
+[[p11175-ti-jie|题解]]。
 
 记使得 $g^x\equiv n\pmod{mod}$ 的最小非负 $x$ 为 $\log n$，有 $\log ab=\log a+\log b$。
 

@@ -57,7 +57,7 @@ $O(n\sqrt n)$ 预处理出每个数的所有因数，记为集合 $p_i$。显然
 
 ### [CF1034E](https://www.luogu.com.cn/problem/CF1034E)
 
-无法子集卷积。因为对 $4$ 取模，可以将 $a_i$ 乘 $4^{popcount(i)}$，然后进行不取模 or 卷积。如果 $a_i\times b_j\to c_k$ 且 $i\text{&} j\neq 0$，$popcount(i)+popcount(j)>popcount(k)$。最后 $c_i$ 除 $4^{popcount(i)}$ 再对 $4$ 取模。
+无法子集卷积。因为对 $4$ 取模，可以将 $a_i$ 乘 $4^{popcount(i)}$，然后进行不取模 or 卷积。如果 $a_i\times b_j\to c_k$ 且 $i \wedge j\neq 0$，$popcount(i)+popcount(j)>popcount(k)$。最后 $c_i$ 除 $4^{popcount(i)}$ 再对 $4$ 取模。
 
 ### [CF960G](https://www.luogu.com.cn/problem/CF960G)
 

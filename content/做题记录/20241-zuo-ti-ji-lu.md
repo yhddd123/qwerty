@@ -9,6 +9,8 @@ isTop: false
 ---
 ## 1.08
 
+[[sam-zuo-ti-ji-lu|SAM 学习笔记]]。
+
 ### [CF235C](https://www.luogu.com.cn/problem/CF235C)
 
 求每个询问串的所有循环同构在主串中出现的次数总和。
