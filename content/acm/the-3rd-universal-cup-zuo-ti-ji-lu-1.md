@@ -9,9 +9,9 @@ isTop: false
 ---
 The 3rd Universal Cup 做题记录
 
-Stage 0 - Stage 9：[The 3rd Universal Cup 做题记录 (1)](https://yhddd123.github.io/post/the-3rd-universal-cup-zuo-ti-ji-lu-1/)
+Stage 0 - Stage 9：[[The 3rd Universal Cup 做题记录 (1)]]
 
-Stage 10 - Stage 19：[The 3rd Universal Cup 做题记录 (2)](https://yhddd123.github.io/post/the-3rd-universal-cup-zuo-ti-ji-lu-2/)
+Stage 10 - Stage 19：[[The 3rd Universal Cup 做题记录 (2)]]
 
 [Stage 0: Trial Contest](https://qoj.ac/contest/1695) ADFGHIJM
 

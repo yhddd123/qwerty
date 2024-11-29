@@ -77,7 +77,7 @@ $s_p\le s_q+\lceil\frac{p-q}{k}\rceil$，维护模 $k$ 为下标的 $\min dis_q+
 
 ### [The 3rd Universal Cup. Stage 12](https://qoj.ac/contest/1807)
 
-见 [The 3rd Universal Cup 做题记录 (2)](https://yhddd123.github.io/post/the-3rd-universal-cup-zuo-ti-ji-lu-2/)。
+见 [[The 3rd Universal Cup 做题记录 (2)]]。
 
 ## 10.14
 

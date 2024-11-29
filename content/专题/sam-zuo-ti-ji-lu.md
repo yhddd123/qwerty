@@ -1,7 +1,9 @@
 ---
-title: 'SAM 做题记录'
+title: SAM 做题记录
 date: 2024-01-01 22:00:40
-tags: [做题记录,字符串]
+tags:
+  - 笔记
+  - 字符串
 published: true
 hideInList: false
 feature: 
