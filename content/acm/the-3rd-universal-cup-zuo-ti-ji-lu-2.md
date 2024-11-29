@@ -9,9 +9,9 @@ isTop: true
 ---
 The 3rd Universal Cup 做题记录
 
-Stage 0 - Stage 9：[[The 3rd Universal Cup 做题记录 (1)]]
+Stage 0 - Stage 9：[[the-3rd-universal-cup-zuo-ti-ji-lu-1|The 3rd Universal Cup 做题记录 (1)]]
 
-Stage 10 - Stage 19：[[The 3rd Universal Cup 做题记录 (2)]]
+Stage 10 - Stage 19：[[the-3rd-universal-cup-zuo-ti-ji-lu-2|The 3rd Universal Cup 做题记录 (2)]]]]
 
 [Stage 10: West Lake](https://qoj.ac/contest/1803) ACDGHKL
 
@@ -33,7 +33,7 @@ Stage 10 - Stage 19：[[The 3rd Universal Cup 做题记录 (2)]]
 
 ### [A. Italian Cuisine](https://contest.ucup.ac/contest/1803/problem/9434)
 
-复制一遍，枚举 $i$ 维护右端点 $j$。要求 $(x,y)$ 到过 $(a_i,b_i),(a_j,b_j)$ 的直线距离大于 $r$ 或 等于 $r$ 且交点不在线段上，即 $\angle OIJ$ 和 $\angle OJI$ 至少一个为钝角，即两个向量的数量积小于零。要求 $(a_i,b_i),(x,y),(a_j,b_j)$ 的夹角和 $(a_i,b_i),(x,y),(a_{j-1},b_{j-1})$ 的夹角同正负，即两个向量的叉积同正负。三点坐标求面积 $S=\frac{\lvert x1y2+x2y3+x3y1-x1y3-x2y1-x3y2\rvert}{2}$。
+复制一遍，枚举 $i$ 维护右端点 $j$。要求 $(x,y)$ 到过 $(a_i,b_i),(a_j,b_j)$ 的直线距离大于 $r$ 或 等于 $r$ 且交点不在线段上，即 $\angle OIJ$ 和 $\angle OJI$ 至少一个为钝角，即两个向量的数量积小于零。要求 $(a_i,b_i),(x,y),(a_j,b_j)$ 的夹角和 $(a_i,b_i),(x,y),(a_{j-1},b_{j-1})$ 的夹角同正负，即两个向量的叉积同正负。三点坐标求面积 $S=\frac{\lvert x1y2+x2y3+x3y1-x1y3-x2y1-x3y2\rvert}{2}$。 ^b0e69e
 
 ### [C. Permutation](https://contest.ucup.ac/contest/1803/problem/9432)
 

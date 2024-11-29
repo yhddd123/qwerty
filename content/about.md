@@ -17,7 +17,8 @@ isTop: true
 
 ## 关于本博客
 
-[my gridea blog](https://yhddd123.github.io/)。感觉这个博客也很牛，存一些学习笔记，两边更新。(24.11.29)
+[my gridea blog](https://yhddd123.github.io/)。
+
+感觉这个博客也很牛，存一些学习笔记，两边更新。(24.11.29)
 
 博客以做题记录为主，比较简略。有一些题目来源的链接是本校 oj。
-
