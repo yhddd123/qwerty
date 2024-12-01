@@ -15,14 +15,14 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "en-US","en-GB","zh-CN","ja-JP"
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
-      cdnCaching: true,
+      cdnCaching: true,l
       typography: {
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
