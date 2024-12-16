@@ -1,9 +1,7 @@
 ---
-title: SAM 做题记录
+title: 'SAM 做题记录'
 date: 2024-01-01 22:00:40
-tags:
-  - 笔记
-  - 字符串
+tags: [做题记录,字符串]
 published: true
 hideInList: false
 feature: 
@@ -92,7 +90,7 @@ void dfs(int u){
 
 #### 2.定义
 
-SAM 一个节点对应的长度分别算贡献。parent tree 上，$minlen_u=maxlen_{lnk_u}+1$。对于每个 $i$，$ans=ans+len_u-len_{lnk_u}$。
+SAM 一个节点对应的长度分别算贡献。parent tree 上，$minlen_u=maxlen_{lnk_u}+1$。对于每个 $i$，$ans$ 加上 $len_u-len_{lnk_u}$。
 
 ```cpp
 	for(int i=1;i<=n;i++)insert(c[i]-'a'),ans+=len[p]-len[lnk[p]];
