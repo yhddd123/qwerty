@@ -54,3 +54,9 @@ isTop: false
 [Q2064](https://qoj.ac/problem/2064)
 
 点分治 $u$，预处理 $x$ 最早 $f_x$ 到 $u$，要走边 $(u,v,t)$ 最晚 $g_{u,t}$ 从 $u$ 出发。数满足 $f_s\le g_{ed,t},t\le lim$ 的不同颜色数量，扫描线。
+
+### 241215
+
+thupc2025 初赛 H。
+
+对 $c$ 分解质因数，每个质数 $p$ 维护 $\frac{i}{gcd(i,a_i)}$ 是 $p$ 倍数的位置，一个个取出来修改，只有 $n\log n$ 次修改。类似 [弹飞绵羊](https://www.luogu.com.cn/problem/P3203)，分块，每个点维护第一次跳出块的位置。

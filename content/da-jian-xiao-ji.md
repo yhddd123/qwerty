@@ -75,6 +75,8 @@ jobs:
 
 使用 [https://obsidian.md/](https://obsidian.md/) 写作。
 
+同步时 ```unable to access 'https://github.com//.git/': recv failure: connection was reset```。cmd 输入  ```git config --global http.proxy http://127.0.0.1:7890```。
+
 ---
 
 特殊语法：创建链接显示指定文本 ```[[real|text]]```。```#Tag``` 指向 tag。
