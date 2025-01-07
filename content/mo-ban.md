@@ -624,44 +624,8 @@ void work(){
 
 ```cpp
 int mod,g,n,q;
-int inc(int u,int v){((u+=v)>=mod-1)&&(u-=mod-1);return u;}
-inline int ksm(int a,int b=mod-2){
-	int ans=1;
-	while(b){
-		if(b&1)ans=1ll*ans*a%mod;
-		a=1ll*a*a%mod;
-		b>>=1;
-	}
-	return ans;
-}
 int B,bas,h0;
 struct hsh_table{
-	int head[maxn],tot;
-	struct nd{
-		int nxt;
-		int key;
-		int val;
-	}e[maxn];
-	int hsh(int u){return u%maxn;}
-	bool find(int key){
-		int u=hsh(key);
-		for(int i=head[u];i;i=e[i].nxt){
-			if(e[i].key==key)return 1;
-		}
-		return 0;
-	}
-	int &operator[](int key){
-		int u=hsh(key);
-		for(int i=head[u];i;i=e[i].nxt){
-			if(e[i].key==key)return e[i].val;
-		}
-		e[++tot]={head[u],key,0};head[u]=tot;
-		return e[tot].val;
-	}
-	void clear(){
-		tot=0;
-		for(int i=0;i<maxn;i++)head[i]=0;
-	}
 }mp;
 int bsgs(int v){
 	int mul=v;

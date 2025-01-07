@@ -1,7 +1,9 @@
 ---
-title: '图计数'
+title: 图计数
 date: 2024-12-12 11:55:27
-tags: [计数]
+tags:
+  - 计数
+  - 笔记
 published: true
 hideInList: false
 feature: 
