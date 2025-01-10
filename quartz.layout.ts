@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
       provider: 'giscus',
       options: {
         // from data-repo
-        repo: 'yhddd/qwerty',
+        repo: 'yhddd123/qwerty',
         // from data-repo-id
         repoId: 'R_kgDONWbD1Q',
         // from data-category
