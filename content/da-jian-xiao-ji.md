@@ -79,4 +79,8 @@ jobs:
 
 ---
 
-特殊语法：创建链接显示指定文本 ```[[real|text]]```。```#Tag``` 指向 tag。
+特殊语法：创建链接显示指定文本 ```[[real|text]]```。
+
+```#Tag``` 指向 tag。
+
+非 markdown 标准分段：quartz.config.ts 加 ```Plugin.HardLineBreaks(),```。
